@@ -1,0 +1,27 @@
+GET http://localhost:3000/componentes HTTP/1.1
+Content-Type: application/json
+
+###
+POST http://localhost:300/componentes HTTP/1.1
+Content-Type: application/json
+{
+    "codigo_componente": 2,
+    "nome_componente": "Luiz ",
+    "desc_componente": "luiz@meusite.com"
+}
+
+
+###
+PUT http://localhost:3000/componentes/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome_componente": "Luiz Carlos Camargo",
+    "desc_componente": "luiz@meusite.com"
+}
+###
+
+DELETE http://localhost:3000/componentes/1 HTTP/1.1
+Content-Type: application/json
+
+###

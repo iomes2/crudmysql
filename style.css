@@ -1,0 +1,62 @@
+body,
+html,
+a, p, h1, ul, h1, h2, h3{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    color: #e6e6e6;
+    background-color:black;
+}
+.cabecalho{
+    padding: 5%;
+    background-color: rgb(80, 160, 87);
+    color: white;
+}
+.maincontent h2{
+    margin-bottom: 20px;
+}
+.maincontent{
+    width: 400px;
+    height: 100vh;
+    background-color: rgb(92, 182, 99);
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+.maincontent label{
+    display: block;
+    margin: 5px;
+}
+.maincontent input{
+    background-color: #ffffff00;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.712);
+    border-radius: 6px;
+    padding: 5px;
+}
+.maincontent button{
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+    background-color: rgba(39, 39, 39, 0.753);
+    color: rgb(236, 236, 236);
+}
+.maincontent button:hover{
+    background-color: rgba(78, 78, 78, 0.753);
+    cursor:copy;
+}
+.formulario{
+    padding: 5%;
+    background-color: rgb(92, 182, 99);
+
+
+}
